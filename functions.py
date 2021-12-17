@@ -1,6 +1,6 @@
 def read_catalog(filename):     # чтение файла с данными
     data = []
-    with open("file.txt", 'r', encoding='utf-8') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         for line in f:
             chislo = ''
             for word in range(len(line)):
