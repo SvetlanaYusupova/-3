@@ -1,7 +1,7 @@
 import time
 from random import sample
 from functools import reduce
-from functions import minimal, maximum, summ, product, read_catalog
+from functions import minimal, read_catalog, maximum, summ, product
 from math import isclose
 
 
