@@ -7,7 +7,7 @@ from math import isclose
 class TestDataProcessing(unittest.TestCase):
     def test_min(self):    # Тест проверки функции нахождения минимума
         data = [1, 2, 3, 4.1]
-        self.assert isclose(1, minimal(data))
+        assert isclose(1, minimal(data))
 
     if True:    # Тест проверки функции нахождения максимума
         data = [4.2, 4, 4.2, 4.1]
